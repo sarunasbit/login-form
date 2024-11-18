@@ -1,0 +1,24 @@
+.intro__page {
+    text-align: start;
+    h1{
+        font-weight: bold;
+        font-size: 3rem;
+        margin: 0;
+    }
+    p{
+        font-weight: bold;
+        font-size: 1.25rem;
+        margin: 0 0 2em 0;
+    }
+    button {
+        text-decoration: none;
+        font-size: 1rem;
+        border: none;
+        border-radius: 1.5em;
+        padding: 1em 2em;
+        background-color: #4CC9FE;
+        &:hover{
+            cursor: pointer;
+        }
+    }
+}
